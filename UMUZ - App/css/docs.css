@@ -1,0 +1,141 @@
+:root {
+    --x-color: #ca43ff;
+    --y-color: #450074;
+    --w-color: #9900ff;
+    --z-color: rgb(218, 218, 218);
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: black; 
+    background-color: #f2f2f2; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: var(--w-color); 
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--x-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #7a00cc;
+    text-decoration: none;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--z-color); 
+}
+
+th {
+    background-color: var(--y-color); 
+    color: white; 
+}
+td {
+    background-color: var(--z-color); 
+}
+
+/* Estilos de los botones */
+button {
+    background-color: var(--x-color); 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #7a00cc; 
+}
+
+/* Estilos de los formularios */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"],
+input[type="month"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+select:focus {
+    outline: none;
+    border: 2px solid var(--x-color); 
+}
+
+/* Estilos de los enlaces */
+a {
+    color: var(--x-color); 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+/* Estilos del footer */
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #bdbdbd;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
