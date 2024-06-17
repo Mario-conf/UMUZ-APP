@@ -228,3 +228,6 @@ Para una documentación y recursos más detallados, consulta el [Repositorio de 
 
 4. **Ejecución con Dockerfile**:
    - Si desea ejecutar el proyecto con Dockerfile, descomprima el archivo .zip del proyecto y use la carpeta `UMUZ` de su interior como el archivo .zip que usa el Dockerfile. De lo contrario, es probable que tenga fallos de rutas de archivos al ejecutarlo.
+
+
+---
