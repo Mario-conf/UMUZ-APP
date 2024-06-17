@@ -1,0 +1,13 @@
+Aquí puedes descargar el instalador para el servidor web Bitnami WAMP Stack versión 8.0.3-2 para Windows x64:
+
+https://www.mediafire.com/file/kfdc5sodm1smy3m/bitnami-wampstack-8.0.3-2-windows-x64-installer.exe/file
+
+Este servidor web es utilizado para ejecutar aplicaciones web en entornos locales de desarrollo. Por favor ten en cuenta que esta descarga solo incluye el servidor web y no la aplicación específica que desees ejecutar sobre él.
+
+---
+
+Download the installer for Bitnami WAMP Stack version 8.0.3-2 for Windows x64 here:
+
+https://www.mediafire.com/file/kfdc5sodm1smy3m/bitnami-wampstack-8.0.3-2-windows-x64-installer.exe/file
+
+This web server is used to run web applications in local development environments. Please note that this download includes only the web server itself and does not include any specific application to run on it.
