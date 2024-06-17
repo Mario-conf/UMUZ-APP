@@ -2,6 +2,7 @@
 
 ![UMUZ Logo](bak.png)
 
+
 ## About UMUZ
 
 Welcome to Universal Management Utilities Zone, your ultimate productivity companion. UMUZ is a complete productivity ecosystem designed to revolutionize the way you manage your life and work. With UMUZ, you can centralize all your tasks, events, and projects in one place, simplifying your workflow and boosting your productivity.
