@@ -1,0 +1,255 @@
+/* Variables CSS para definir colores y demás */
+:root {
+    --primary-color: #9900ff; 
+    --secondary-color: #450074; 
+    --ff-color:#fff671;
+    --rr-color:#ffffff;
+    --form-bg-color: rgba(68, 68, 68, 0.6); 
+    --form-bgo-color: rgba(37, 37, 37, 0.8); 
+}
+/* Estilos generales para login.php */
+.login-container {
+    background-color: var(--form-bg-color);
+    color: #ffffff;
+    border-radius: 10px; 
+    padding: 40px; 
+    width: 300px; 
+    margin: auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-header {
+    text-align: center;
+    font-size: 24px; 
+    margin-bottom: 20px; 
+}
+
+.form-group input {
+    border-radius: 10px; 
+    border: 1px solid #ddd;
+    background-color: var(--form-bgo-color);
+    padding: 10px;
+    margin-bottom: 15px; 
+    width: 200px;
+}
+
+.form-group button {
+    background-color: var(--primary-color); 
+    color: white;
+    padding: 10px; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer; 
+    width: 223px;
+}
+
+.form-group button:hover {
+    transition: 0.4s;
+    background-color:var(--secondary-color); 
+}
+
+
+.create-account-link {
+    color:#bdbdbd; 
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.create-account-link a {
+    color:#bdbdbd; 
+    text-decoration: none; 
+}
+
+.create-account-link a:hover {
+    transition: 0.6s;
+    color:var(--ff-color); 
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+/* Estilos moviles para login.php  */
+@media screen and (max-width: 768px) {
+    .login-container {
+        width: 60%; 
+    }
+}
+/* Estilos generales para register.php */
+.register-container {
+    background-color: var(--form-bg-color);
+    color: #ffffff;
+    border-radius: 10px; 
+    padding: 40px; 
+    width: 300px; 
+    margin: auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-header {
+    text-align: center;
+    font-size: 24px; 
+    margin-bottom: 20px; 
+}
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--form-bgo-color);
+    margin-bottom: 15px;
+}
+
+.form-group button {
+    background-color: var(--primary-color); 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.form-group button:hover {
+    transition: 0.4s;
+    background-color:var(--secondary-color); 
+}
+.form-group label {
+    margin-bottom: 10px; display: block;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+.register-container label {
+    width: 200px;
+    margin: auto;
+}
+/* Estilos específicos para user.php */
+.user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.boxer {
+    background-color: var(--form-bg-color); 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px; 
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.section-title {
+    margin-top: 30px;
+    color: var(--ff-color); 
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: var(--form-bgo-color);
+    margin-bottom: 15px;
+}
+
+.btn-delete-user, .btn-go-to-web {
+    background-color: var(--primary-color); 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%;
+    margin-bottom: 10px; 
+}
+.btn-delete-user {
+    margin-bottom: 10px; 
+}
+
+.btn-go-to-web {
+    margin-bottom: 10px; 
+}
+.btn-delete-user:hover, .btn-go-to-web:hover {
+    transition: 0.4s;
+    background-color: var(--secondary-color); 
+}
+.create-account-link .bole a {
+    color: #bdbdbd;
+}
+.create-account-link .bole a:hover{
+    color: #ffd900;
+    text-decoration: none;
+}
+.login-section {
+    margin-top: 30px; 
+    position: relative;
+}
+
+.logout-link {
+    color:#bdbdbd; 
+    text-decoration: none;
+    text-shadow: #fff671;
+    font-weight: bolder;
+}
+
+.logout-link:hover {
+    transition: 0.6s;
+    color: var(--ff-color); 
+}
+
+/* Estilos generales */
+html, body {
+    height: 110%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    background-image: url('bak.png');
+    overflow-x: hidden; 
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-body, .user-body, .register-body {
+    min-height: 100%;
+    min-width: 100%;
+    padding-bottom: 100px; 
+    background-image: url('bak.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat-y; /
+}
+
+/* Estilos del footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #bdbdbd;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
