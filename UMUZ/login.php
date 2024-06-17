@@ -96,7 +96,7 @@ function generateUniqueToken($length = 32) {
                         <p><a href="register.php">Don't have an account? Sign up</a></p>
                     </div>
                     <div class="create-account-link">
-                        <p class="bole"><a href="http://localhost/UMUZ/" style="font-size: 1em;">Go back to the Website</a></p>
+                        <p class="bole"><a href="https://mario-conf.github.io/UMUZ-APP/" style="font-size: 1em;">Go back to the source Website</a></p>
                          </div>
                 </div>
             </div>
