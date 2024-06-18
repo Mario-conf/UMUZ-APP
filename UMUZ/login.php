@@ -57,7 +57,7 @@ function generateUniqueToken($length = 32) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UMUZ - Login</title>
-  <link rel="stylesheet" href="../UMUZ/css/estilos.css">
+  <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body class="login-body">
 
@@ -96,14 +96,14 @@ function generateUniqueToken($length = 32) {
                         <p><a href="register.php">Don't have an account? Sign up</a></p>
                     </div>
                     <div class="create-account-link">
-                        <p class="bole"><a href="https://mario-conf.github.io/UMUZ-APP/" style="font-size: 1em;">Go back to the source Website</a></p>
+                    <p class="bole"><a href="https://mario-conf.github.io/UMUZ-APP/" style="font-size: 1em;">Go back to the source Website</a></p>
                          </div>
                 </div>
             </div>
         </div>
     </section>
 
-  <script src="js/main.js"></script>
+  <script src="./js/main.js"></script>
 
 
 <footer>

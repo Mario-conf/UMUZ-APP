@@ -81,7 +81,7 @@ if(isset($_POST['fullname'], $_POST['email'], $_POST['username'], $_POST['passwo
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UMUZ - Register</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../UMUZ/css/estilos.css">
+  <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body class="login-body">
     <section class="login-section">
@@ -131,7 +131,7 @@ if(isset($_POST['fullname'], $_POST['email'], $_POST['username'], $_POST['passwo
             </div>
         </div>
     </section>
-  <script src="js/main.js"></script>
+  <script src="./js/main.js"></script>
 
   <footer>
     <p>Developed by</p><a href="https://github.com/Mario-conf" target="_blank"> Mario.conf</a>

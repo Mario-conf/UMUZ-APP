@@ -27,7 +27,7 @@ if (file_exists($user_events_file)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMUZ - App</title>
-    <link rel="stylesheet" href="../UMUZ/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <div class="container">
   <header class="d-flex" style="background-color: #fff;">
@@ -200,66 +200,66 @@ function updateEventList(events) {
 </script>
 <section id="Tools">
   <div id="card" class="card">
-  <img src="../UMUZ/css/notes.png" alt="Imagen">
+  <img src="./css/notes.png" alt="Imagen">
     <div class="card-content">
       <h3>Notes</h3>
-      <button class="btn-enter" data-link="../notes/index.php">Enter</button>
+      <button class="btn-enter" data-link="./notes/index.php">Enter</button>
     </div>
   </div>
 
   <div id="card" class="card">
-  <img src="../UMUZ/css/chart.png" alt="Imagen">
+  <img src="./css/chart.png" alt="Imagen">
     <div class="card-content">
       <h3>Charts </h3>
-      <button class="btn-enter" data-link="../chart/index.php">Enter</button>
+      <button class="btn-enter" data-link="./chart/index.php">Enter</button>
     </div>
   </div>
 
   <div id="card" class="card">
-  <img src="../UMUZ/css/time.png" alt="Imagen">
+  <img src="./css/time.png" alt="Imagen">
     <div class="card-content">
       <h3>Weather</h3>
-      <button class="btn-enter" data-link="../time/index.php">Enter</button>
+      <button class="btn-enter" data-link="./time/index.php">Enter</button>
     </div>
   </div>
 
   <div id="card" class="card">
-  <img src="../UMUZ/css/calc.png" alt="Imagen">
+  <img src="./css/calc.png" alt="Imagen">
     <div class="card-content">
       <h3>Calculator</h3>
-      <button class="btn-enter" data-link="../calc/index.php">Enter</button>
+      <button class="btn-enter" data-link="./calc/index.php">Enter</button>
     </div>
   </div>
 
   <div id="card" class="card">
-  <img src="../UMUZ/css/board.png" alt="Imagen">
+  <img src="./css/board.png" alt="Imagen">
     <div class="card-content">
       <h3>Whiteboard</h3>
-      <button class="btn-enter" data-link="../board/index.php">Enter</button>
+      <button class="btn-enter" data-link="./board/index.php">Enter</button>
     </div>
   </div>
 
   <div id="card" class="card">
-  <img src="../UMUZ/css/cv.png" alt="Imagen">
+  <img src="./css/cv.png" alt="Imagen">
     <div class="card-content">
       <h3>Curriculum</h3>
-      <button class="btn-enter" data-link="../cv/index.php">Enter</button>
+      <button class="btn-enter" data-link="./cv/index.php">Enter</button>
     </div>
   </div>
 
   <div id="card" class="card">
-  <img src="../UMUZ/css/docs.png" alt="Imagen">
+  <img src="./css/docs.png" alt="Imagen">
     <div class="card-content">
       <h3>Bookkeeper</h3>
-      <button class="btn-enter" data-link="../docs/autonomo.php">Enter</button>
+      <button class="btn-enter" data-link="./docs/autonomo.php">Enter</button>
     </div>
   </div>
 
   <div id="card" class="card">
-  <img src="../UMUZ/css/code.png" alt="Imagen">
+  <img src="./css/code.png" alt="Imagen">
     <div class="card-content">
       <h3>Exchange</h3>
-      <button class="btn-enter" data-link="../code/index.php">Enter</button>
+      <button class="btn-enter" data-link="./code/index.php">Enter</button>
     </div>
   </div>
 <!--
@@ -273,7 +273,7 @@ function updateEventList(events) {
 -->
 </section>
 
-  <script src="../UMUZ/js/index.js"></script>  
+  <script src="./js/index.js"></script>  
 
 <footer>
   <p>Developed by</p><a href="https://github.com/Mario-conf" target="_blank"> Mario.conf</a>

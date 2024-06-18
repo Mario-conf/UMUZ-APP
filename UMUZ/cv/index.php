@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Verificar si el usuario está autenticado o no
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: ../UMUZ/login.php");
+    header("Location: ../login.php");
     exit;
 }
 
@@ -26,7 +26,7 @@ if (file_exists($user_events_file)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../UMUZ/css/cv.css">
+    <link rel="stylesheet" href="../css/cv.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     <title>UMUZ - Quick-CV</title>
@@ -35,7 +35,7 @@ if (file_exists($user_events_file)) {
     <header>
         <h1>UMUZ - Quick-CV</h1>
         
-        <a href="../UMUZ/web.php" class="btn">Go to Web Panel</a>
+        <a href="../web.php" class="btn">Go to Web Panel</a>
         <!--    <p id="instrucciones">Complete the form below:</p>    -->
       
     </header>
@@ -166,6 +166,6 @@ if (file_exists($user_events_file)) {
   <p>Developed by</p><a href="https://github.com/Mario-conf" target="_blank"> Mario.conf</a>
 </footer>
 
-    <script src="../UMUZ/UMUZ/js/cv.js"></script>
+    <script src="../js/cv.js"></script>
 </body>
 </html>

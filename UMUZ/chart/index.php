@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Verificar si el usuario está autenticado o no
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: ../UMUZ/login.php");
+    header("Location: ../login.php");
     exit;
 }
 
@@ -31,7 +31,7 @@ if (file_exists($user_events_file)) {
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <link rel="stylesheet" href="../UMUZ/css/chart.css">
+    <link rel="stylesheet" href="../css/chart.css">
     <script>
         function toggleDarkMode() {
             document.body.classList.toggle('dark-mode');
@@ -70,11 +70,11 @@ if (file_exists($user_events_file)) {
     <label for="csvInput" class="upload-button" onclick="chooseFile()">Select CSV File</label>
     <input type="file" id="csvInput" accept=".csv" onchange="loadCSV()" style="display: none;">
     <button type="button" class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-    <a href="../UMUZ/web.php" class="btn">Go to Web Panel</a>
+    <a href="../web.php" class="btn">Go to Web Panel</a>
 </form>
 
 <br>
 <canvas id="myChart"></canvas>
-<script src="../UMUZ/UMUZ/js/chart.js"></script>
+<script src="../js/chart.js"></script>
 </body>
 </html>

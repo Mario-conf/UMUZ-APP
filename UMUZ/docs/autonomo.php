@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Verificar si el usuario está autenticado o no
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: ../UMUZ/login.php");
+    header("Location: ../login.php");
     exit;
 }
 
@@ -89,12 +89,12 @@ function filtrarRegistros($registros, $cliente, $mes) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMUZ - Profitime</title>
-    <link rel="stylesheet" href="../UMUZ/css/docs.css">
+    <link rel="stylesheet" href="../css/docs.css">
 </head>
 <body>
 
 <div class="container">
-        <a href="../UMUZ/web.php" class="btn">Go to Web Panel</a>
+        <a href="../web.php" class="btn">Go to Web Panel</a>
     <h2>Work Hours Registration and Client Management</h2>
 
     <form method="post" autocomplete="off">

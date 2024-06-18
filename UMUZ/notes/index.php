@@ -3,7 +3,7 @@ session_start();
 
 // Verificar si el usuario está autenticado
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: ../UMUZ/login.php");
+    header("Location: ../login.php");
     exit;
 }
 
@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../UMUZ/css/notes.css">
+    <link rel="stylesheet" href="../css/notes.css">
     <title>UMUZ - Notes</title>
     <style>
    :root {
@@ -204,7 +204,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </li>
             <?php endforeach; ?>
         </ul>
-        <a href="../UMUZ/web.php" class="btn" id="web-panel-btn">Go to Web Panel</a>
+        <a href="../web.php" class="btn" id="web-panel-btn">Go to Web Panel</a>
     </div>
 </body>
 </html>

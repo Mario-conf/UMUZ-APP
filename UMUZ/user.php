@@ -60,7 +60,7 @@ if (isset($_GET['token']) && isset($_SESSION['auth_token']) && $_GET['token'] ==
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMUZ - Management</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="../UMUZ/css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body class="user-body">
     <div class="user-container">
@@ -101,7 +101,7 @@ if (isset($_GET['token']) && isset($_SESSION['auth_token']) && $_GET['token'] ==
     <footer>
         <p>Developed by</p><a href="https://github.com/Mario-conf" target="_blank"> Mario.conf</a>
     </footer>
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

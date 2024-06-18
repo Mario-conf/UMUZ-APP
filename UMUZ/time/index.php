@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Verificar si el usuario está autenticado o no
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: ../UMUZ/login.php");
+    header("Location: ../login.php");
     exit;
 }
 
@@ -29,7 +29,7 @@ if (file_exists($user_events_file)) {
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMUZ - Wheather</title>
-    <link rel="stylesheet" href="../UMUZ/css/time.css">
+    <link rel="stylesheet" href="../css/time.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
@@ -37,7 +37,7 @@ if (file_exists($user_events_file)) {
 <body>
     <div class="container">
 
-    <a href="../UMUZ/web.php" class="btn" id="web-panel-btn">Go to Web Panel</a>
+    <a href="../web.php" class="btn" id="web-panel-btn">Go to Web Panel</a>
 
     <div class="search-box">
         <i class="fa-solid fa-location-dot"></i> 
@@ -87,7 +87,7 @@ if (file_exists($user_events_file)) {
 
 
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
-    <script src="../UMUZ/UMUZ/js/time.js"></script>
+    <script src="../js/time.js"></script>
   
 </body>
 </html>

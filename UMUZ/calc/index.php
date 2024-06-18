@@ -6,7 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Verificar si el usuario está autenticado o no
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("Location: ../UMUZ/login.php");
+    header("Location: ../login.php");
     exit;
 }
 
@@ -36,12 +36,12 @@ if (file_exists($user_events_file)) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         />
-        <link rel="stylesheet" href="../UMUZ/css/calc.css">
+        <link rel="stylesheet" href="../css/calc.css">
      <title>UMUZ - Calculator </title>
       </head>
       <header>
         <h1>UMUZ - Calculator </h1>
-        <a href="../UMUZ/web.php" class="btn">Go to Web Panel</a>
+        <a href="../web.php" class="btn">Go to Web Panel</a>
         </header>
       <body>
         <!-- Estos son los botones y display de la calculadora-->
@@ -197,8 +197,8 @@ if (file_exists($user_events_file)) {
 </div>    
 <!-- Archivos js -->
 
-  <script src="../UMUZ/UMUZ/js/calc.app.js"></script>
-  <script src="../UMUZ/UMUZ/js/calc.script.js"></script>
+  <script src="../js/calc.app.js"></script>
+  <script src="../js/calc.script.js"></script>
 
 
 </body>
